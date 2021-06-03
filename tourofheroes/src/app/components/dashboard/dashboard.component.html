@@ -1,0 +1,9 @@
+<div class="row card-group">
+    <div class="col-3" *ngFor="let hero of heroes | slice:0:4">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                {{hero.name}}
+            </div>
+        </div>
+    </div>
+</div> 
