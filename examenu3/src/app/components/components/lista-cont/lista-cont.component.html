@@ -1,0 +1,11 @@
+<div class="card" style="width: 18rem;">
+ <h2>Lista de Contactos</h2>
+ <li *ngFor="let contacto of contactos">
+   <div class="row">
+    <div class="card-body">
+      <h5 class="card-title">{{contacto.nombre}} {{contacto.apellidos}} ({{contacto.genero}})</h5>
+      <p class="card-text">{{contacto.descripcion}}</p>
+      <a href="" class="btn btn-primary" type="submit" value="mostrar()">Ver Detalles</a>
+    </div>
+   </div>
+ </li>
